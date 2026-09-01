@@ -1,0 +1,107 @@
+/* 1. Sobrescribimos las variables globales de Bootstrap */
+:root {
+    /* Color principal (Primary) */
+    --bs-primary: #00c2cb;
+    --bs-primary-rgb: 0, 194, 203;
+
+    /* Color acento (Podemos asignarlo a Info o Secondary) */
+    --bs-info: #f0e7fa;
+    --bs-info-rgb: 240, 231, 250;
+
+    /* Textos y títulos */
+    --bs-dark: #222222;
+    --bs-dark-rgb: 34, 34, 34;
+    --bs-body-color: #555555;
+
+    /* Color de los enlaces */
+    --bs-link-color: #00c2cb;
+    --bs-link-hover-color: #00a6ae;
+}
+
+/* 2. Ajustamos los botones primary para que tomen bien el hover y el texto blanco */
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #00c2cb;
+    --bs-btn-border-color: #00c2cb;
+
+    /* Estado hover (al pasar el mouse) */
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #00a6ae;
+    /* Un turquesa ligeramente más oscuro */
+    --bs-btn-hover-border-color: #00a6ae;
+
+    /* Sombra al hacer click (focus) */
+    --bs-btn-focus-shadow-rgb: 0, 194, 203;
+
+    /* Estado activo (presionado) */
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #008f96;
+    --bs-btn-active-border-color: #008f96;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Container del título */
+.brand-container {
+    background-color: var(--bs-primary);
+    border-radius: 8px;
+    padding: 4px 14px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.brand-container:hover,
+.brand-container:focus,
+.brand-container:active {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+/* Active navbar item styling */
+.navbar {
+    --bs-navbar-active-color: var(--bs-primary);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+#hero-carousel {
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    border-radius: 20px;
+    height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 15%;
+    right: auto;
+    text-align: left;
+    bottom: 15%;
+}
+
+.carousel-caption .btn {
+    background-color: white !important;
+    color: var(--bs-btn-hover-bg) !important;
+}
