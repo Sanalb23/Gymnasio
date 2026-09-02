@@ -105,3 +105,140 @@ body {
     background-color: white !important;
     color: var(--bs-btn-hover-bg) !important;
 }
+
+#clases {
+    background-color: #ffffff;
+}
+
+#clases h2,
+#horarios h2,
+#preguntas h2,
+#contacto h2 {
+    font-weight: 700;
+    color: var(--bs-dark);
+}
+
+#clases .card {
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#clases .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 194, 203, 0.18);
+}
+
+#clases .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+#clases .card-title {
+    font-weight: 700;
+    color: #222222;
+}
+
+#clases .btn-info,
+#contacto .btn-info {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: white;
+}
+
+#clases .btn-info:hover,
+#contacto .btn-info:hover {
+    background-color: #00a6ae;
+    border-color: #00a6ae;
+    color: white;
+}
+
+#horarios {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#horarios .table {
+    background-color: white;
+}
+
+#horarios .table-dark {
+    --bs-table-bg: #222222;
+    --bs-table-border-color: #333333;
+}
+
+#horarios th {
+    padding: 15px;
+}
+
+#horarios td {
+    padding: 14px;
+    vertical-align: middle;
+}
+
+.accordion-item {
+    border: 1px solid #eaeaea;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e6fafa;
+    color: #00a6ae;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 194, 203, 0.2);
+}
+
+#contacto {
+    border-top: 1px solid #eeeeee;
+}
+
+#contacto form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+#contacto .form-label {
+    font-weight: 600;
+}
+
+#contacto .form-control {
+    border: 1px solid #dddddd;
+    padding: 12px;
+}
+
+#contacto .form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.2rem rgba(0, 194, 203, 0.15);
+}
+
+#contacto .btn-info {
+    padding: 12px;
+    font-weight: 600;
+}
+
+.alert-success {
+    background-color: #e6fafa;
+    border-color: #00c2cb;
+    color: #007b82;
+}
+
+@media (max-width: 768px) {
+    #clases .card-img-top {
+        height: 200px;
+    }
+
+    .carousel-item img {
+        height: 50vh;
+    }
+
+    #contacto form {
+        padding: 20px;
+    }
+}
