@@ -53,22 +53,25 @@ body {
 /* ============================================ */
 /*               NAVBAR & HEADER                */
 /* ============================================ */
-.brand-container {
-    background-color: var(--bs-primary);
-    border-radius: 8px;
-    padding: 4px 14px;
-    display: inline-flex;
-    align-items: center;
-    color: white;
+.brand-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--bs-dark);
     text-decoration: none;
 }
 
-.brand-container:hover,
-.brand-container:focus,
-.brand-container:active {
-    color: white;
-    text-decoration: none;
-    opacity: 0.9;
+.brand-logo:hover,
+.brand-logo:focus {
+    color: var(--bs-primary);
+}
+
+footer .brand-logo {
+    color: #ffffff;
+}
+
+footer .brand-logo:hover,
+footer .brand-logo:focus {
+    color: var(--bs-primary);
 }
 
 .navbar {
