@@ -1,4 +1,6 @@
-/* Sobrescribimos las variables globales de Bootstrap */
+/* ============================================ */
+/*           VARIABLES GLOBALES & BASE          */
+/* ============================================ */
 :root {
     /* Color principal */
     --bs-primary: #00c2cb;
@@ -48,7 +50,9 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* Container del título */
+/* ============================================ */
+/*               NAVBAR & HEADER                */
+/* ============================================ */
 .brand-container {
     background-color: var(--bs-primary);
     border-radius: 8px;
@@ -77,6 +81,9 @@ body {
     font-weight: 600;
 }
 
+/* ============================================ */
+/*              SECCIÓN: HERO / CAROUSEL        */
+/* ============================================ */
 #hero-carousel {
     margin-top: 30px;
 }
@@ -104,6 +111,9 @@ body {
     color: var(--bs-btn-hover-bg) !important;
 }
 
+/* ============================================ */
+/*                 SECCIÓN: CLASES              */
+/* ============================================ */
 #clases {
     background-color: #ffffff;
 }
@@ -151,6 +161,9 @@ body {
     color: white;
 }
 
+/* ============================================ */
+/*                SECCIÓN: HORARIOS             */
+/* ============================================ */
 #horarios {
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -174,6 +187,9 @@ body {
     vertical-align: middle;
 }
 
+/* ============================================ */
+/*           SECCIÓN: PREGUNTAS FRECUENTES      */
+/* ============================================ */
 .accordion-item {
     border: 1px solid #eaeaea;
 }
@@ -192,6 +208,9 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(0, 194, 203, 0.2);
 }
 
+/* ============================================ */
+/*                SECCIÓN: CONTACTO             */
+/* ============================================ */
 #contacto {
     border-top: 1px solid #eeeeee;
 }
@@ -230,6 +249,9 @@ body {
     color: #007b82;
 }
 
+/* ============================================ */
+/*          DISEÑO ADAPTATIVO (MEDIA QUERIES)   */
+/* ============================================ */
 @media (max-width: 768px) {
     #clases .card-img-top {
         height: 200px;
