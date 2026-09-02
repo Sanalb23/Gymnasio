@@ -25,9 +25,8 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#horarios">Horarios</a>
                     </li>
@@ -50,6 +49,11 @@
 
     <main>
         <section id="hero-carousel" aria-label="Destacados">
+            <div class="container text-center mb-4">
+                <h1 class="display-4 fw-bold text-dark">Bienvenido a Gymnasio</h1>
+                <p class="lead text-muted">Transformá tu vida, alcanzá tus metas y entrená con el mejor equipamiento y
+                    profesionales.</p>
+            </div>
             <div id="carouselExampleIndicators" class="carousel slide container-fluid">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -98,7 +102,8 @@
                             <img src="img/crossfit.avif" class="card-img-top" alt="Clase de Crossfit">
                             <div class="card-body">
                                 <h4 class="card-title">Crossfit</h4>
-                                <p class="card-text">Entrenamientos de alta intensidad para mejorar fuerza y resistencia.</p>
+                                <p class="card-text">Entrenamientos de alta intensidad para mejorar fuerza y
+                                    resistencia.</p>
                                 <a href="#contacto" class="btn btn-info">Más info</a>
                             </div>
                         </div>
@@ -129,15 +134,55 @@
 
         <section id="horarios" class="py-5 bg-light">
             <div class="container">
-                <div class="text-center mb-4"><h2>Horarios de Clases</h2><p class="text-muted">Consultá nuestros horarios semanales</p></div>
+                <div class="text-center mb-4">
+                    <h2>Horarios de Clases</h2>
+                    <p class="text-muted">Consultá nuestros horarios semanales</p>
+                </div>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover table-bordered text-center">
-                        <thead class="table-dark"><tr><th>Horario</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr></thead>
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Horario</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
                         <tbody>
-                            <tr><td>08:00</td><td>Musculación</td><td>Crossfit</td><td>Musculación</td><td>Boxeo</td><td>Pilates</td></tr>
-                            <tr><td>10:00</td><td>Crossfit</td><td>Pilates</td><td>Boxeo</td><td>Crossfit</td><td>Musculación</td></tr>
-                            <tr><td>16:00</td><td>Boxeo</td><td>Musculación</td><td>Crossfit</td><td>Pilates</td><td>Boxeo</td></tr>
-                            <tr><td>18:00</td><td>Pilates</td><td>Crossfit</td><td>Musculación</td><td>Boxeo</td><td>Crossfit</td></tr>
+                            <tr>
+                                <td>08:00</td>
+                                <td>Musculación</td>
+                                <td>Crossfit</td>
+                                <td>Musculación</td>
+                                <td>Boxeo</td>
+                                <td>Pilates</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                                <td>Crossfit</td>
+                                <td>Pilates</td>
+                                <td>Boxeo</td>
+                                <td>Crossfit</td>
+                                <td>Musculación</td>
+                            </tr>
+                            <tr>
+                                <td>16:00</td>
+                                <td>Boxeo</td>
+                                <td>Musculación</td>
+                                <td>Crossfit</td>
+                                <td>Pilates</td>
+                                <td>Boxeo</td>
+                            </tr>
+                            <tr>
+                                <td>18:00</td>
+                                <td>Pilates</td>
+                                <td>Crossfit</td>
+                                <td>Musculación</td>
+                                <td>Boxeo</td>
+                                <td>Crossfit</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -146,23 +191,118 @@
 
         <section id="preguntas" class="py-5">
             <div class="container">
-                <div class="text-center mb-4"><h2>Preguntas Frecuentes</h2></div>
+                <div class="text-center mb-4">
+                    <h2>Preguntas Frecuentes</h2>
+                </div>
                 <div class="accordion" id="accordionPreguntas">
-                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#preguntaUno">¿Qué necesito para comenzar?</button></h2><div id="preguntaUno" class="accordion-collapse collapse show" data-bs-parent="#accordionPreguntas"><div class="accordion-body">Solo necesitás ropa cómoda, ganas de entrenar y una botella de agua.</div></div></div>
-                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#preguntaDos">¿Cuánto tiempo duran las clases?</button></h2><div id="preguntaDos" class="accordion-collapse collapse" data-bs-parent="#accordionPreguntas"><div class="accordion-body">Las clases tienen una duración aproximada de una hora.</div></div></div>
-                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#preguntaTres">¿Cuáles son los medios de pago?</button></h2><div id="preguntaTres" class="accordion-collapse collapse" data-bs-parent="#accordionPreguntas"><div class="accordion-body">Aceptamos efectivo, transferencias y diferentes medios de pago electrónicos.</div></div></div>
-                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#preguntaCuatro">¿Puedo asistir a una clase de prueba?</button></h2><div id="preguntaCuatro" class="accordion-collapse collapse" data-bs-parent="#accordionPreguntas"><div class="accordion-body">Sí, podés consultar por una clase de prueba antes de inscribirte.</div></div></div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#preguntaUno">¿Qué necesito para
+                                comenzar?</button></h2>
+                        <div id="preguntaUno" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionPreguntas">
+                            <div class="accordion-body">Solo necesitás ropa cómoda, ganas de entrenar y una botella de
+                                agua.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#preguntaDos">¿Cuánto tiempo duran las
+                                clases?</button></h2>
+                        <div id="preguntaDos" class="accordion-collapse collapse" data-bs-parent="#accordionPreguntas">
+                            <div class="accordion-body">Las clases tienen una duración aproximada de una hora.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#preguntaTres">¿Cuáles son los medios de
+                                pago?</button></h2>
+                        <div id="preguntaTres" class="accordion-collapse collapse" data-bs-parent="#accordionPreguntas">
+                            <div class="accordion-body">Aceptamos efectivo, transferencias y diferentes medios de pago
+                                electrónicos.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#preguntaCuatro">¿Puedo asistir a una clase de
+                                prueba?</button></h2>
+                        <div id="preguntaCuatro" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionPreguntas">
+                            <div class="accordion-body">Sí, podés consultar por una clase de prueba antes de
+                                inscribirte.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contacto" class="py-5 bg-light">
+        <section id="nosotros" class="py-5 bg-light">
             <div class="container">
-                <div class="text-center mb-4"><h2>Contacto</h2><p class="text-muted">Enviános tu consulta</p></div>
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h2 class="fw-bold mb-3">Sobre Nosotros</h2>
+                        <p class="lead text-muted mb-4">Somos un espacio dedicado a mejorar la calidad de vida y salud
+                            de nuestra comunidad a través del entrenamiento inteligente y personalizado.</p>
+                        <p class="text-secondary">Contamos con más de 10 años de experiencia, profesores certificados y
+                            equipamiento de última generación. Nuestro objetivo es brindarte un ambiente motivador donde
+                            puedas superar tus propios límites a tu propio ritmo.</p>
+                        <div class="row g-3 mt-2">
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm border text-center">
+                                    <h3 class="fw-bold text-primary mb-1">+10</h3>
+                                    <span class="text-muted small">Años de Experiencia</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm border text-center">
+                                    <h3 class="fw-bold text-primary mb-1">+1000</h3>
+                                    <span class="text-muted small">Socios Activos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/carousel_1.jpg" class="img-fluid rounded-4 shadow"
+                            alt="Sobre Nosotros - Gymnasio">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>Contacto</h2>
+                    <p class="text-muted">Enviános tu consulta</p>
+                </div>
                 <div id="alertaExito" class="alert alert-success d-none" role="alert">¡Consulta enviada con éxito!</div>
                 <form id="formContacto">
-                    <div class="row"><div class="col-md-6 mb-3"><label for="nombre" class="form-label">Nombre</label><input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required></div><div class="col-md-6 mb-3"><label for="email" class="form-label">Email</label><input type="email" class="form-control" id="email" placeholder="Ingrese su email" required></div></div>
-                    <div class="mb-3"><label for="mensaje" class="form-label">Mensaje</label><textarea class="form-control" id="mensaje" rows="5" placeholder="Escriba su consulta" required></textarea></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3"><label for="nombre" class="form-label">Nombre</label><input
+                                type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="col-md-6 mb-3"><label for="email" class="form-label">Email</label><input
+                                type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3"><label for="telefono" class="form-label">Teléfono</label><input
+                                type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono" required>
+                        </div>
+                        <div class="col-md-6 mb-3"><label for="motivo" class="form-label">Motivo de contacto</label>
+                            <select class="form-select" id="motivo" required>
+                                <option value="" disabled selected>Seleccione un motivo</option>
+                                <option value="informacion">Información General</option>
+                                <option value="inscripcion">Inscripción y Membresías</option>
+                                <option value="clase_prueba">Clase de Prueba</option>
+                                <option value="horarios">Consultas sobre Horarios</option>
+                                <option value="otro">Otro motivo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3"><label for="mensaje" class="form-label">Mensaje</label><textarea
+                            class="form-control" id="mensaje" rows="4" placeholder="Escriba su consulta"
+                            required></textarea></div>
                     <button type="submit" class="btn btn-info w-100">Enviar Mensaje</button>
                 </form>
             </div>

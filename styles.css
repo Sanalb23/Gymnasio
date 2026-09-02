@@ -111,6 +111,7 @@ body {
 #clases h2,
 #horarios h2,
 #preguntas h2,
+#nosotros h2,
 #contacto h2 {
     font-weight: 700;
     color: var(--bs-dark);
@@ -206,12 +207,14 @@ body {
     font-weight: 600;
 }
 
-#contacto .form-control {
+#contacto .form-control,
+#contacto .form-select {
     border: 1px solid #dddddd;
     padding: 12px;
 }
 
-#contacto .form-control:focus {
+#contacto .form-control:focus,
+#contacto .form-select:focus {
     border-color: var(--bs-primary);
     box-shadow: 0 0 0 0.2rem rgba(0, 194, 203, 0.15);
 }
